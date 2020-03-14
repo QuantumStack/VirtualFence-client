@@ -4,8 +4,14 @@
 		<title>Virtual Fence</title>
 	</head>
 	<body>
+		<div id="controlPanel">
+			<input class="jscolor" id="colorBtn" type="button" value="#000000"></input>
+			<input id="strokeSizer" type ="range" min="1" max="100" value="1"></input>
+			<input type="text" id="strokeSizeTxt" value="1"></input>
+		</div>
 		<canvas id="canvas">
 		</canvas>
 		<script src="index.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.0.4/jscolor.js"></script>
 	</body>
 </html>
